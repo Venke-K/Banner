@@ -1,0 +1,141 @@
+body{
+    background-color: white;
+}
+span{
+    margin-left: 30px;   
+}
+.header {
+    text-align: center;
+    font-family: fantasy;
+    margin: 230px;
+}
+.container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap:35px;
+   
+  }
+
+  .text {
+    font-size: 15px;
+    color: black;
+  }
+
+  .btn {
+    border-radius: 10px; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 14px 28px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+  }
+  
+  .success {background-color: #04AA6D;} /* Green */
+  .success:hover {background-color: #46a049;}
+  
+  .info {background-color:red;} /* Blue */
+  .info:hover {background: red;}
+  
+  .warning {background-color: #ff9800;} /* Orange */
+  .warning:hover {background: #e68a00;}
+
+  .header2 {
+    text-align: center;
+    font-family: fantasy;
+    margin: 45px;
+}
+
+.button{
+    text-align: center;
+}
+.header2{
+    margin: 65px;
+    font-family: fantasy ;
+}
+.divider {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+  }
+
+  .divider1 {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .divider::before, .divider::after {
+    flex: 1;
+    content: '';
+    padding: 1px;
+    background-color: gray;
+    margin:45px;
+  }
+
+  .divider1::before, .divider1::after {
+    flex: 1;
+    content: '';
+    padding: 1px;
+    background-color: gray;
+    margin: 5px;
+  }
+ 
+.flex-container{ 
+    justify-content: center;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+ 
+}
+.div1, .div2, .div3, .div4{
+    width: 20em;
+    height: 9em;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px gray;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.div11{
+    background-color: white;
+    width: 50%;
+    float: left;
+    font-style: oblique;
+    gap: 6em;
+    
+ 
+}
+
+.div21{
+    background-color: white;
+    width: 50%;
+    float: left;
+    gap: 6em;
+
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .column h3 {
+    color: #fff;
+  }
+  
+  .column p {
+    color: #ccc;
+  }
+  
